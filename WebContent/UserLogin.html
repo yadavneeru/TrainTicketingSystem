@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>LOGIN</title>
+	<style>
+body {
+			margin: 0;
+			padding: 0;
+			display: flex;
+			height: 100vh;
+			justify-content: left;
+			align-items: lift;
+			background-image:url(op.png);
+			background-size:70%;
+			font-family: sans-serif;
+		}
+		h1{
+		text-align: center;
+		text-shadow: 2px solid white;
+		color: orange;
+		}
+		form{
+		color:white;
+		}
+		.main a {
+			padding: 20px 20px;
+			display: inline-block;
+			color: #008000;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			text-decoration: none;
+			font-size: 0.7em;
+			overflow: hidden;
+		}
+
+		.main a:hover {
+			color: blue;
+			background: #39ff14;
+			box-shadow: 0 0 100px #39ff17;
+		}
+		
+		.tab a {
+			padding: 20px 20px;
+			display: inline-block;
+			color: #008000;
+			letter-spacing: 2px;
+			text-transform: uppercase;
+			text-decoration: none;
+			font-size: 0.7em;
+			overflow: hidden;
+		}
+
+		.tab a:hover {
+			color: blue;
+			background: #39ff14;
+			box-shadow: 0 0 70px #39ff17;
+		}
+	
+
+	</style>
+</head>
+<body>
+<header>
+	<h1 class="hd">TORRY HARRIS ONLINE RESERVATION SYSTEM<br/>[ THBS ]</h1>
+	<div class="main">
+		<p1 class="menu"><a href="UserRegister.html">Register For New User</a></p1>
+		<p1 class="menu"><a href="AdminLogin.html">Admin_Login</a></p1>
+	</div>
+</header>
+<div class="tab">User_Login</div>
+<form action="userlogin" class="tab brown" method="post">
+		<br/>UserName: <input type="text"placeholder="Unique_name" name="uname"><br/><br/>
+		Password: <input type="password"placeholder="Pa$$word" name="pword"><br/><br/>
+		<input type="submit" value="Click To Login"><br/>
+	</form><br/>
+</body>
+</html>
